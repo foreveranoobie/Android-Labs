@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondPage">
+
+    <TextView
+        android:id="@+id/expressionView"
+        android:layout_width="164dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="53dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/calculateButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="146dp"
+        android:onClick="calculate"
+        android:text="Calculate"
+        app:layout_constraintBottom_toTopOf="@+id/result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/expressionView" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="123dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="354dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calculateButton" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="94dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="302dp"
+        android:layout_marginBottom="662dp"
+        android:onClick="returnToFirstPage"
+        android:text="Return"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

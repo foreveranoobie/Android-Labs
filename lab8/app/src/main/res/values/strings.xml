@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab8</string>
+    <string name="desc">Your language code is: </string>
+</resources>

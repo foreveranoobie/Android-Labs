@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="lastname_header">Last name</string>
+    <string name="firstname_header">First name</string>
+    <string name="middle_name_header">Middle name</string>
+    <string name="year_header">Year</string>
+    <string name="city_header">City of residence</string>
+    <string name="stretch_column">*</string>
+    <string name="bold_text">bold</string>
+    <string-array name="members">
+        <item>1</item>
+        <item>Иванов</item>
+        <item>Иван</item>
+        <item>Иванович</item>
+        <item>1997</item>
+        <item>Рязань</item>
+        <item>2</item>
+        <item>John</item>
+        <item>Richard</item>
+        <item>Doe</item>
+        <item>1982</item>
+        <item>Boston</item>
+        <item>3</item>
+        <item>Олексій</item>
+        <item>Петрович</item>
+        <item>Лобановський</item>
+        <item>1965</item>
+        <item>Чернігів</item>
+        <item>4</item>
+        <item>Максим</item>
+        <item>Віталійович</item>
+        <item>Олійник</item>
+        <item>2001</item>
+        <item>Київ</item>
+        <item>5</item>
+        <item>George</item>
+        <item>Eugene</item>
+        <item>Reagan</item>
+        <item>1992</item>
+        <item>Seattle</item>
+    </string-array>
+</resources>

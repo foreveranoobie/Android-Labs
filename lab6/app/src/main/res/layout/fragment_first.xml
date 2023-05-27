@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <RelativeLayout
+            android:id="@+id/firstNumberLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/firstNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="First number" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/firstNumberText"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/secondNumberLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_below="@id/firstNumberLayout">
+
+            <TextView
+                android:id="@+id/secondNumberText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Second number" />
+
+            <EditText
+                android:id="@+id/editTextNumberDecimal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:minWidth="20dp"
+                android:layout_below="@id/secondNumberText"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/operationLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/secondNumberLayout"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/operationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Operation" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/operationText" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</FrameLayout>
